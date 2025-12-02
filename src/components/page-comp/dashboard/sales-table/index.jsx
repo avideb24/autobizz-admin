@@ -36,7 +36,7 @@ const SalesTable = ({
     {
       title: (
         <div
-          className="flex items-center gap-2 cursor-pointer"
+          className="flex justify-center items-center gap-2 cursor-pointer"
           onClick={() => onSort("date")}
         >
           Date
@@ -50,7 +50,7 @@ const SalesTable = ({
     {
       title: (
         <div
-          className="flex items-center gap-2 cursor-pointer"
+          className="flex justify-center items-center gap-2 cursor-pointer"
           onClick={() => onSort("price")}
         >
           Price

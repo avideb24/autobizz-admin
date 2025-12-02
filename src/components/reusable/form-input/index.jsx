@@ -82,8 +82,8 @@ const FormInput = ({
                     <Button icon={<UploadOutlined />} style={inputStyle}>Upload Image</Button>
                 </Upload>
             )}
-             {/* Color Picker Field */}
-             {type === "color" && <Input type="color" defaultValue={defaultValue} style={{ ...inputStyle, width: "100%", height: "40px" }} {...rest} />}
+            {/* Color Picker Field */}
+            {type === "color" && <Input type="color" defaultValue={defaultValue} style={{ ...inputStyle, width: "100%", height: "40px" }} {...rest} />}
         </Form.Item>
     );
 };
