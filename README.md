@@ -1,0 +1,3 @@
+#Admin Cosmetics Template
+
+Documentation will come soon...

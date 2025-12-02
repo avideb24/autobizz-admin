@@ -1,0 +1,60 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #3498db;
+    --color-secondary: #e74c3c;
+    --color-light: #fff;
+    --color-dark: #212121;
+
+    --font-primary: "Lato", sans-serif;
+
+    /* --breakpoint-sm: 600px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+    --container-padding: 100px;
+    --container-center: true; */
+}
+
+body{
+    @apply text-xs md:text-sm 2xl:text-base font-primary;
+}
+
+/* --------- title -------- */
+.title{
+    @apply text-lg md:text-2xl font-bold pb-3 md:pb-5 capitalize;
+}
+.sub-title{
+    @apply text-base md:text-xl font-semibold pb-3 md:pb-5 capitalize;
+}
+
+/* --------- button ---------- */
+button{
+    @apply cursor-pointer;
+}
+.button{
+    @apply w-fit bg-primary px-4 py-1 flex items-center gap-2 rounded-sm text-light;
+}
+.button-outline{
+    @apply w-fit bg-light px-4 py-1 flex items-center gap-2 rounded-sm text-dark;
+}
+.icon-button{
+    @apply w-fit flex items-center gap-2;
+}
+
+/* --------- card ---------- */
+.card {
+    @apply w-full p-3 border border-slate-200 shadow;
+}
+
+
+/* --------- shadow ---------- */
+.shadow {
+    @apply border border-slate-200 shadow;
+}
+
+.shadow-bottom {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
