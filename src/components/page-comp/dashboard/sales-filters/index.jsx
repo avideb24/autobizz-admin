@@ -42,7 +42,7 @@ const SalesFilters = ({ onFilterChange, loading, filters }) => {
     <Card title="Filters" className="shadow-sm">
       <Form form={form} onFinish={handleSubmit} layout="vertical">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-1 md:gap-4">
 
           <FormInput
             label="Date Range"

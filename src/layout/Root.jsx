@@ -2,7 +2,6 @@ import { Outlet, useLocation } from "react-router-dom";
 import Sidebar from "../components/layout/sidebar";
 import Header from "../components/layout/header";
 import { useState } from "react";
-import Copyright from "../components/reusable/copyright";
 
 
 const Root = () => {

@@ -12,9 +12,9 @@ const Sidebar = ({ setShowSidebar }) => {
         <div className="h-screen bg-light px-4 border-r border-slate-300">
 
             {/* logo */}
-            <div className="py-3 flex justify-between items-center">
+            <div className="py-3 flex justify-between md:justify-center items-center">
                 <Link to={"/"}>
-                    <img src={siteConfig?.logo} className="max-w-24 lg:max-w-36 h-full object-contain" alt="logo" />
+                    <img src={siteConfig?.logo} className="max-w-28 lg:max-w-36 h-full object-contain" alt="logo" />
                 </Link>
                 <button onClick={() => setShowSidebar(false)} className="text-2xl lg:hidden">
                     <AiTwotoneCloseSquare />

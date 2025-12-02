@@ -102,12 +102,14 @@ const SalesTable = ({
       }
       className="shadow-sm"
     >
-      <Table
-        headers={headers}
-        data={tableData}
-        pagination={false}
-        loading={loading}
-      />
+      <div className="overflow-x-auto">
+        <Table
+          headers={headers}
+          data={tableData}
+          pagination={false}
+          loading={loading}
+        />
+      </div>
       <div className="mt-4 text-sm text-gray-500 text-center">
         Showing {salesData.length} items per page
       </div>
